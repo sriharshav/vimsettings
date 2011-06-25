@@ -1,2 +1,11 @@
 This folder contains my vim settings.
+1) set nobackup "Set off backup files"
+2) set noswapfile "Set off swap files"
+3) set guifont=Consolas:h12:cANSI
+4) set stal=2 
+5) set guioptions-=T "No Toolbar"
+6) set guioptions-=r "No right scroll "
+7) set number
+8) colorscheme cobaltish 
+9) Open each buffer in new tab :au BufAdd,BufNewFile * nested tab sball
 
