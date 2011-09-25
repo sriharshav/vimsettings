@@ -33,6 +33,7 @@ set noswapfile "Set off swap files"
 
 "Fonts"
 set guifont=Consolas:h12:cANSI
+"set guifont=Inconsolata\ Medium\ 14
 
 "Tabs"
 set stal=2 
