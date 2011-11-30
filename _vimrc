@@ -32,10 +32,16 @@ set nobackup "Set off backup files"
 set noswapfile "Set off swap files"
 
 "Fonts"
-set guifont=Consolas:h12:cANSI
+set guifont=Consolas:h13:cANSI
 
 "Tabs"
 set stal=2 
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+set autoindent
+set copyindent
 
 "GUI Options"
 set guioptions-=T "No Toolbar"
@@ -48,7 +54,6 @@ set number
 "Color scheme"
 colorscheme cobaltish "tried zellner, selenitic, now cobaltish suits me best"
 
-filetype plugin on
-set ofu=syntaxcomplete#Complete
-
-:au BufAdd,BufNewFile * nested tab sball
+map <F2> :NERDTreeToggle \| :silent NERDTreeMirror<CR>
+let g:NERDTreeWinPos = "right"
+let NERDTreeQuitOnOpen = 1
