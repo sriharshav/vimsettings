@@ -30,6 +30,7 @@ endfunction
 
 set nobackup "Set off backup files"
 set noswapfile "Set off swap files"
+set noundofile
 
 "Fonts"
 set guifont=Consolas:h13:cANSI
