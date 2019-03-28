@@ -59,3 +59,6 @@ colorscheme cobaltish "tried zellner, selenitic, now cobaltish suits me best"
 map <F2> :NERDTreeToggle \| :silent NERDTreeMirror<CR>
 let g:NERDTreeWinPos = "right"
 let NERDTreeQuitOnOpen = 1
+
+"Cursor to underscore"
+set guicursor+=n:hor10-Cursor/lCursor
