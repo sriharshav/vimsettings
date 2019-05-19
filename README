@@ -8,4 +8,4 @@ This folder contains my vim settings.
 7) set number
 8) colorscheme cobaltish 
 9) Open each buffer in new tab :au BufAdd,BufNewFile * nested tab sball
-
+10) configure keyboard shortcut for Nerdtree
